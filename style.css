@@ -1,9 +1,5 @@
 :root {
-    --background-color:#2F303A;
-}
-.button {
-    --button-color:#2196F3;
-}
-.text {
-    --section-two-color-text:#757575;
+  --background-color: #2F303A;
+  --button-color: #2196F3;
+  --section-two-color-text: #757575;
 }
