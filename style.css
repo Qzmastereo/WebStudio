@@ -3,3 +3,28 @@
   --button-color: #2196F3;
   --section-two-color-text: #757575;
 }
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('Roboto\Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: url('Roboto\Roboto-Black.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('Roboto\Roboto-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('Roboto\Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('Roboto\Roboto-Light.ttf');
+}
