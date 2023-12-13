@@ -4,83 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>
-        <img src="img_Web/WebStudio.svg" alt="">
-        <ul>
-            <li><a href="index.html">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
-            <li><a href="#">info@devstudiio.com</a></li>
-            <li>+38 096 111 11 11</li>
+    <header class="main-header">
+        <img src="img_Web/WebStudio.svg" alt="" class="logo">
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link">Студія</a></li>
+            <li><a href="porfolio.html" class="nav-link">Портфоліо</a></li>
+            <li><a href="#" class="nav-link">Контакти</a></li>
+            <li><a href="mailto:info@devstudiio.com" class="nav-email">info@devstudiio.com</a></li>
+            <li class="phone-number">+38 096 111 11 11</li>
         </ul>
     </header>
     <main>
-        <section>
-            <nav>
-                <a href="#">Усі</a>
-                <a href="#">Веб-сайти</a>
-                <a href="#">Додатки</a>
-                <a href="#">Дизайн</a>
-                <a href="#">Маркетинг</a>
-            </nav>
+        <section class="filter-section">
+            <div class="portfolio-filter">
+                <button class="filter-button"><p class="text-button">Усі</p></button>
+                <button class="filter-button"><p class="text-button">Веб-сайти</p></button>
+                <button class="filter-button"><p class="text-button">Додатки</p></button>
+                <button class="filter-button"><p class="text-button">Дизайн</p></button>
+                <button class="filter-button"><p class="text-button">Маркетинг</p></button>
+            </div>
         </section>
+        
         <br>
         <section>
-            <div>
-                <img src="img_Portfolio/img (3).png" alt="">
-                <h4>Технокряк</h4>
-                <p>Веб-сайт</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (3).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Технокряк</h4>
+                <p class="portfolio-category">Веб-сайт</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (4).png" alt="">
-                <h4>Постер New Orlean vs Golden Star</h4>
-                <p>Дизайн</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (4).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Постер New Orlean vs Golden Star</h4>
+                <p class="portfolio-category">Дизайн</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (5).png" alt="">
-                <h4>Ресторан Seafood</h4>
-                <p>Додаток</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (5).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Ресторан Seafood</h4>
+                <p class="portfolio-category">Додаток</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (6).png" alt="">
-                <h4>Проєкт Prime</h4>
-                <p>Маркетинг</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (6).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Проєкт Prime</h4>
+                <p class="portfolio-category">Маркетинг</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (7).png" alt="">
-                <h4>Проєкт Boxes</h4>
-                <p>Додаток</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (7).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Проєкт Boxes</h4>
+                <p class="portfolio-category">Додаток</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (8).png" alt="">
-                <h4>Inspiration has no Borders</h4>
-                <p>Веб-сайт</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (8).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Inspiration has no Borders</h4>
+                <p class="portfolio-category">Веб-сайт</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (9).png" alt="">
-                <h4>Видання Limited Edition</h4>
-                <p>Дизайн</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (9).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Видання Limited Edition</h4>
+                <p class="portfolio-category">Дизайн</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (10).png" alt="">
-                <h4>Проєкт LAB</h4>
-                <p>Маркетинг</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (10).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Проєкт LAB</h4>
+                <p class="portfolio-category">Маркетинг</p>
             </div>
-            <div>
-                <img src="img_Portfolio/img (11).png" alt="">
-                <h4>Growing Business</h4>
-                <p>Додаток</p>
+            <div class="portfolio-item">
+                <img src="img_Portfolio/img (11).png" alt="" class="portfolio-image">
+                <h4 class="portfolio-title">Growing Business</h4>
+                <p class="portfolio-category">Додаток</p>
             </div>
         </section>
     </main>
-    <footer>
-     <img src="img_Web/WebStudio.svg" alt="">
-    <p>м. Київ, пр-т Лесі Українки, 26</p>
-    <p>info@devstudio.com</p>
-    <p>+38 096 111 11 11</p>
+    <footer class="main-footer">
+        <img src="img_Web/WebStudio.svg" alt="" class="footer-logo">
+        <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <p class="footer-email">info@devstudio.com</p>
+        <p class="footer-phone">+38 096 111 11 11</p>
     </footer>
 </body>
 </html>
-

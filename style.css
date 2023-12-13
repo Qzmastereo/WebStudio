@@ -43,6 +43,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px
 }
+.logo{
+  margin-left: 215px;
+}
 
 .nav-link {
   font-family: 'Roboto', sans-serif;
@@ -51,6 +54,7 @@ body {
   font-size: 14;
   line-height: 1.17;
   color: #212121;
+  margin-left: 215px;
 }
 
 .nav-link:hover {
@@ -61,6 +65,14 @@ body {
   margin-top: 32px;
   width: 135px;
   height: 16px;
+}
+.nav-email{
+  color: var(--button-color);
+  text-decoration: none;
+  margin-left: 215px;
+}
+.phone-number{
+  margin-left: 215px;
 }
 
 .main-section {
@@ -82,13 +94,15 @@ body {
   line-height: 1.36;
   text-align: center;
   color: #FFFFFF;
+  margin-left: 345px;
+  padding-top: 180px;
 }
 
 .order-button {
   width: 216px;
   height: 50px;
   margin-top: 5px;
-  left: 692px;
+  margin-left: 692px;
   border-radius: 4px;
   border-color: var(--button-color);
   background-color: var(--button-color);
@@ -107,7 +121,7 @@ body {
   width: 1170px;
   height: 98px;
   padding-top: 10px;
-  left: 215px;
+  margin-left: 215px;
 }
 
 .feature {
@@ -144,7 +158,9 @@ body {
   line-height: 1.171;
   text-align: center;
 }
-
+.foto-services{
+  margin-left: 215px;
+}
 .team-section {
   width: 1600px;
   height: 648px;
@@ -158,11 +174,13 @@ body {
   line-height: 1.171;
   text-align: center;
 }
-
+.foto-member{
+  margin-left: 215px;
+}
 .team-member-name {
   width: 129px;
   height: 19px;
-  left: 286px;
+  margin-left: 286px;
 }
 
 .team-member-name {
@@ -176,7 +194,7 @@ body {
 .team-member-job {
   width: 130px;
   height: 19px;
-  left: 285;
+  margin-left: 285px;
 }
 
 .team-member-job {
@@ -196,44 +214,36 @@ body {
   left: 215px;
 }
 
-.footer-address {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-}
-
-.footer-address {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  size: 14px;
-  line-height: 1.71;
-  color: #FFFFFF;
-}
-
-.footer-email {
-  width: 136px;
-  height: 21px;
-  left: 215px;
-}
-
-.footer-email {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71%;
-  color: rgb(255, 255, 255, 0.6);
-}
-
+.footer-address,
+.footer-email,
 .footer-phone {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-}
-
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      color: #FFFFFF;
+  }
+.footer-address {
+      width: 231px;
+      height: 21px;
+      margin-left: 215px;
+      padding: 10px;
+  }
+  
+.footer-email {
+      width: 136px;
+      height: 21px;
+      margin-left: 215px; 
+      color: rgba(255, 255, 255, 0.6);
+  }
+  
 .footer-phone {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
-  color: rgb(255, 255, 255, 0.6);
+      width: 231px;
+      height: 21px;
+      margin-left: 215px;
+      color: rgba(255, 255, 255, 0.6);
+  }
+.footer-logo {
+    margin-left: 215px;
 }
+  
