@@ -113,3 +113,13 @@
 .footer-phone {
       color: rgba(255, 255, 255, 0.6);
   }
+  .link-email {
+    text-decoration: none;
+  }
+  .link-phone{
+    text-decoration: none;
+  }
+  .link-email,
+  .link-phone {
+    color:rgba(255, 255, 255, 0.6) ;
+  }
