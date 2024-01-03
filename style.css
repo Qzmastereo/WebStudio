@@ -71,9 +71,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   text-align: center;
   color: #FFFFFF;
+  display: flex;
 }
 
 .order-button {
@@ -173,12 +174,32 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .nav-menu {
   list-style: none;
   display: flex;
   justify-self: center;
+}
+.main-header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.main-section{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.feature-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.services{
+  padding-top: 118px;
+  padding-bottom: 94px;
+}
+.team-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.main-footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
