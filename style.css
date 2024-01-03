@@ -50,8 +50,11 @@ body {
   font-size: 14;
   line-height: 1.17;
   color: #212121;
+  margin: 20px;
 }
-
+.nav-link {
+  vertical-align: top;
+}
 .nav-link:hover {
   color: var(--button-color);
 }
@@ -163,6 +166,8 @@ body {
 .link-phone {
   color:rgba(255, 255, 255, 0.6) ;
 }
+
+
 .container{
   width: 1170px;
   margin: 0 auto;
@@ -171,4 +176,9 @@ body {
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-self: center;
 }
