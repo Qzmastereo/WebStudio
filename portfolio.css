@@ -61,10 +61,13 @@
   .nav-link:hover {
     color: var(--button-color);
   }
-.nav-email{
-    color: var(--button-color);
+  .nav-email{
+    color: #212121;
     text-decoration: none;
-}
+  }
+  .nav-email:hover{
+    color: var(--button-color);
+  }
 .logo{
   margin-right: 150px;
 }
@@ -75,6 +78,9 @@
   margin-left: 50px;
   color: #212121;
   text-decoration: none;
+}
+.phone-number:hover{
+  color: var(--button-color);
 }
 .text-button{
     font-family: 'Roboto', sans-serif;
