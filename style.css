@@ -43,6 +43,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px
 }
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
 .nav-link {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -50,10 +56,7 @@ body {
   font-size: 14;
   line-height: 1.17;
   color: #212121;
-  margin: 20px;
-}
-.nav-link {
-  vertical-align: top;
+  margin-right: 50px;
 }
 .nav-link:hover {
   color: var(--button-color);
@@ -62,7 +65,15 @@ body {
   color: var(--button-color);
   text-decoration: none;
 }
-
+.logo{
+margin-right: 150px;
+}
+.nav-email{
+margin-left: 144px;
+}
+.phone-number{
+margin-left: 50px;
+}
 .main-section {
   background-color: var(--background-color);
 }
@@ -173,11 +184,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 
-}
-.nav-menu {
-  list-style: none;
-  display: flex;
-  justify-self: center;
 }
 .main-header{
   padding-top: 24px;
