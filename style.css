@@ -135,6 +135,7 @@ text-decoration: none;
   font-size: 36px;
   line-height: 1.171;
   text-align: center;
+  padding-bottom: 50px;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
@@ -142,11 +143,14 @@ text-decoration: none;
   font-size: 36px;
   line-height: 1.171;
   text-align: center;
+  padding-bottom: 50px;
 }
 .team-member-name {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .team-member-job {
@@ -154,6 +158,8 @@ text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   color: var(--section-two-color-text);
+  text-align: center;
+  padding-top: 10px;
 }
 
 .main-footer {
@@ -168,6 +174,7 @@ text-decoration: none;
       font-size: 14px;
       line-height: 1.71;
       color: #FFFFFF;
+      padding-bottom: 9px;
   }
 
 .footer-email { 
@@ -187,8 +194,20 @@ text-decoration: none;
 .link-phone {
   color:rgba(255, 255, 255, 0.6) ;
 }
+.footer-logo{
+  padding-bottom: 20px;
+}
 .feature-section > .container {
   display: flex;
+  justify-content: space-between;
+}
+.services-list{
+  display: flex;
+  justify-content: space-between;
+}
+.team-list{
+  display: flex;
+  justify-content: space-between;
 }
 .container{
   width: 1170px;
@@ -209,11 +228,9 @@ text-decoration: none;
   padding-bottom: 94px;
 }
 .services{
-  padding-top: 118px;
   padding-bottom: 94px;
 }
 .team-section{
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .main-footer{
