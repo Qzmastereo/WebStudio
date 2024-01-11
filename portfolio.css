@@ -73,6 +73,8 @@
 }
 .phone-number{
   margin-left: 50px;
+  color: #212121;
+  text-decoration: none;
 }
 .text-button{
     font-family: 'Roboto', sans-serif;

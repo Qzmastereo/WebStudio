@@ -73,6 +73,8 @@ margin-left: 144px;
 }
 .phone-number{
 margin-left: 50px;
+color: #212121;
+text-decoration: none;
 }
 .main-section {
   background-color: var(--background-color);
