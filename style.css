@@ -88,6 +88,7 @@ text-decoration: none;
   text-align: center;
   color: #FFFFFF;
   display: flex;
+  justify-content: center;
 }
 
 .order-button {
@@ -95,6 +96,10 @@ text-decoration: none;
   border-color: var(--button-color);
   background-color: var(--button-color);
   text-align: center;
+  margin-left: 538px;
+  margin-top: 30px;
+  width: 216px;
+  height: 50px;
 }
 
 .text-button {
