@@ -89,7 +89,7 @@ text-decoration: none;
 .main-title {
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto' sans-serif;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
