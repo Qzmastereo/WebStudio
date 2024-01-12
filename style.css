@@ -102,6 +102,8 @@ text-decoration: none;
   border-color: var(--button-color);
   background-color: var(--button-color);
   text-align: center;
+  width: 216px;
+  height: 50px;
 }
 
 .text-button {
@@ -200,6 +202,7 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: space-between;
   }
 .flex-container1{
   display: flex;
@@ -223,6 +226,7 @@ text-decoration: none;
 }
 .flex-container{
   width: 696px;
+  height: 200px;
   margin: 0 auto;
 }
 .main-header{
