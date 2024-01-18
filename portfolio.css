@@ -48,6 +48,7 @@
     display: flex;
     justify-content: center;
     justify-self: center;
+    
   }
   .nav-link {
     font-family: 'Roboto', sans-serif;
@@ -101,6 +102,7 @@
     border-color: #F5F4FA;
     border: none;
     margin: 0 8px;
+    padding: 10px 20px;
 }
 .filter-button:hover {
     background-color: var(--button-color);
