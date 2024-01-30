@@ -175,8 +175,8 @@
     padding-bottom: 4px;
   }
   .portfolio-item{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    gap: 30px;
+    flex-basis: calc((100%-60px)/3);
   }
   .main-footer{
     padding-top: 60px;
