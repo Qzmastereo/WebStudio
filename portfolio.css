@@ -113,6 +113,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .portfolio-title{
     font-family: 'Roboto', sans-serif;
@@ -175,11 +176,15 @@
     padding-bottom: 4px;
   }
   .portfolio-item{
-    gap: 30px;
     flex-basis: calc((100%-60px)/3);
   }
   .main-footer{
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  
+.portfolio-title{
+  padding-top: 20px;
+}
+.portfolio-item:nth-last-child(-n+3){
+  margin-bottom: 150px;
+}
