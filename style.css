@@ -212,6 +212,7 @@ text-decoration: none;
 .flex-container1{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .services-list{
   display: flex;
@@ -255,4 +256,26 @@ text-decoration: none;
 .main-footer{
   padding-top: 60px;
   padding-bottom: 60px;
+}
+#one::before{
+  content:url(https://i.postimg.cc/RCQx4Rnm/antenna-1.png);
+
+}
+#two::before{
+  content: url(https://i.postimg.cc/g2f45CsK/clock-1.png);
+}
+#three::before{
+  content: url(https://i.postimg.cc/3xcx2T7Y/Vector.png);
+}
+#four::before{
+  content: url(https://i.postimg.cc/FFbrKSBy/astronaut-1.png);
+}
+#one::before,
+#two::before,
+#three::before,
+#four::before {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  margin-left: 100px;
 }
