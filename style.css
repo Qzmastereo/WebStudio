@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'Roboto';
   font-weight: 500;
-  src: url('Roboto\Roboto-MediumItalic.ttf');
+  src: url('Roboto\Roboto-Medium.ttf');
 }
 
 @font-face {
@@ -48,6 +48,11 @@ body {
   display: flex;
   justify-content: center;
   justify-self: center;
+  align-items: center;
+}
+.main-header > .container{
+  display: flex;
+  align-items: center;
 }
 .nav-link {
   font-family: 'Roboto', sans-serif;
