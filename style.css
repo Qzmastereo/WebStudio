@@ -132,7 +132,7 @@ text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.170;
+  line-height: 24px;
   color: #757575;
 }
 
@@ -140,7 +140,7 @@ text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.171;
+  line-height: 42px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -148,7 +148,7 @@ text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.171;
+  line-height: 42px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -178,7 +178,7 @@ text-decoration: none;
       font-family: 'Roboto', sans-serif;
       font-weight: 400;
       font-size: 14px;
-      line-height: 1.71;
+      line-height: 24px;
       color: #FFFFFF;
       padding-bottom: 9px;
   }
@@ -212,7 +212,6 @@ text-decoration: none;
 .flex-container1{
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .services-list{
   display: flex;
@@ -274,10 +273,12 @@ text-decoration: none;
 #two::before,
 #three::before,
 #four::before {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 55px;
-  margin-left: 100px;
+  width: 100%;
+  height: 120px;
+  background-color: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .feature-section,
 .services,
