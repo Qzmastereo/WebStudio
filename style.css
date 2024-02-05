@@ -283,8 +283,9 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
   background-color: #F5F4FA;
+  margin-bottom: 20px;
 }
-.feature-section {
+.team-section {
   background-color: #F5F4FA;
 }
 
