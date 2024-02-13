@@ -179,7 +179,7 @@
   }
   .portfolio-filter{
     padding-top: 94px;
-    padding-bottom: 4px;
+    padding-bottom: 34px;
   }
   .portfolio-item{
     flex-basis: calc((100% - 60px) / 3);
@@ -199,4 +199,13 @@
 .portfolio-title,
 .portfolio-category{
   padding-left: 24px;
+}
+.portfolio-item:hover{
+  box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.5) ;
+}
+.filter-button:hover{
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.6);
+}
+.main-header{
+  border-bottom: 1px solid #ECECEC;
 }

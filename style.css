@@ -288,5 +288,17 @@ text-decoration: none;
 .team-section {
   background-color: #F5F4FA;
 }
-
+.team-li{
+  box-shadow: 0 7px 10px -6px  rgba(0, 0, 0, 0.7);
+}
+.team-member-job{
+  padding-bottom: 30px;
+}
+.main-section{
+  background-image: url("img_Web/Imggg.jpg");
+  background-size: cover;
+}
+.team-title{
+  padding-top: 94px;
+}
  /* Я використав хостинг картинок тому що скачані в мене не відображаються */
