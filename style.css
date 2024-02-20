@@ -295,8 +295,9 @@ text-decoration: none;
   padding-bottom: 30px;
 }
 .main-section{
-  background-image: url("img_Web/Imggg.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img_Web/Imggg.jpg");
   background-size: cover;
+
 }
 .team-title{
   padding-top: 94px;
