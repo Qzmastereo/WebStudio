@@ -11,31 +11,31 @@
 @font-face {
   font-family: 'Roboto';
   font-weight: 700;
-  src: url('Roboto\Roboto-Bold.ttf');
+  src: url('Roboto/Roboto-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 900;
-  src: url('Roboto\Roboto-Black.ttf');
+  src: url('Roboto/Roboto-Black.ttf');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 500;
-  src: url('Roboto\Roboto-Medium.ttf');
+  src: url('Roboto/Roboto-Medium.ttf');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 400;
-  src: url('Roboto\Roboto-Regular.ttf');
+  src: url('Roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 300;
-  src: url('Roboto\Roboto-Light.ttf');
+  src: url('Roboto/Roboto-Light.ttf');
 }
 
 body {
@@ -69,6 +69,9 @@ body {
 .nav-email{
   color: #212121;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 .nav-email:hover{
   color: var(--button-color);
@@ -80,9 +83,12 @@ margin-right: 150px;
 margin-left: 144px;
 }
 .phone-number{
-margin-left: 50px;
-color: #212121;
-text-decoration: none;
+  margin-left: 50px;
+  color: #212121;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 .phone-number:hover{
   color: var(--button-color);
@@ -109,6 +115,7 @@ text-decoration: none;
   text-align: center;
   width: 216px;
   height: 50px;
+  cursor: pointer;
 }
 
 .text-button {
