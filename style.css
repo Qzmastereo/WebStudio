@@ -63,6 +63,7 @@ body {
   color: #212121;
   margin-right: 50px;
 }
+
 .nav-link:hover {
   color: var(--button-color);
 }
@@ -80,10 +81,9 @@ body {
 margin-right: 150px;
 }
 .nav-email{
-margin-left: 144px;
+
 }
 .phone-number{
-  margin-left: 50px;
   color: #212121;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -299,7 +299,7 @@ margin-left: 144px;
   box-shadow: 0 7px 10px -6px  rgba(0, 0, 0, 0.7);
 }
 .team-member-job{
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .main-section{
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img_Web/Imggg.jpg");
@@ -309,4 +309,85 @@ margin-left: 144px;
 .team-title{
   padding-top: 94px;
 }
- /* Я використав хостинг картинок тому що скачані в мене не відображаються */
+.icon-header-email{
+  margin-left: 144px;
+  align-items: center;
+}
+
+.icon-header-phone{
+  margin-left: 50px;
+}
+.nav-menu > li:hover{
+  fill: #2196F3;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+
+}
+.icon-social{
+  fill: #AFB1B8;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.icon-social:hover{
+  fill: #FFFFFF;
+  background-color: #2196F3;
+  border-radius: 30px;
+}
+.icon-client{
+  fill: #AFB1B8;
+  cursor: pointer;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-bottom: 94px;
+}
+.icon-client:hover{
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
+.client-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.client-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 3%;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.social-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 16.41px;
+  font-size: 14px;
+  letter-spacing: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-social{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 70px;
+}
+.main-footer > .container{
+  display: flex;
+  align-items: start;
+}
+.icon-footer{
+  fill: #FFFFFF;
+  cursor: pointer;
+  background-color: #FFFFFF1A;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.icon-footer:hover{
+  background-color: #2196F3;
+}
