@@ -32,8 +32,35 @@
             <div class="container">
                 <div class="flex-container">
                 <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                <button type="button" class="order-button"><p class="text-button">Замовити послугу</p></button>   
-            </div> 
+                <button type="button" class="order-button" data-modal-open><p class="text-button">Замовити послугу</p></button>   
+                </div>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="btn" data-modal-close>X</button>
+                        <h1 class="form-title">Залиште свої дані, ми вам передзвонимо</h1>
+                        <form action="" class="form">
+                            <p class="pred-title">Ім'я</p>
+                            <label>
+                                <input class="form-input" type="text" name="name" id="onee" >
+                            </label>
+                            <p class="pred-title">Телефон</p>
+                            <label>
+                                <input class="form-input" type="tel" name="tel" id="twoo" >
+                            </label>
+                            <p class="pred-title">Пошта</p>
+                            <label>
+                                <input class="form-input" type="email" name="email" id="threee">
+                            </label>
+                            <p class="pred-title">Коментар</p>
+                            <textarea name="form-input" id="fourr" cols="30" rows="10">Введіть текст</textarea>
+                        </form>
+                        <div class="poin">
+                            <img src="img_Web/Vector_7.svg" alt="">
+                            <p class="poin-title">Погоджуюся з розсилкою та приймаю Умови договору</p>
+                        </div>
+                        <button type="button" class="button" data-modal-close>Відправити</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="feature-section">
@@ -206,5 +233,7 @@
             </div>
         </div>
     </footer>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
