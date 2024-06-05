@@ -698,3 +698,31 @@ body {
 #studia{
   color: #2196F3;
 }
+.main-title {
+  animation: transforms 1s ease-in-out;
+}
+
+.order-button {
+  animation: slide 1s ease-in-out;
+}
+@keyframes transforms {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
