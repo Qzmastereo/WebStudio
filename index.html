@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
@@ -31,7 +32,7 @@
         <section class="main-section">
             <div class="container">
                 <div class="flex-container">
-                <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <h1 class="main-title" data-aos="fade-up">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
                 <button type="button" class="order-button" data-modal-open><p class="text-button">Замовити послугу</p></button>   
                 </div>
                 <div class="backdrop is-hidden" data-modal>
@@ -92,7 +93,7 @@
         </section>
         <section class="services">
             <div class="container">
-                <h1 class="services-title">Чим ми займаємося</h1>
+                <h1 class="services-title" data-aos="flip-up">Чим ми займаємося</h1>
             <ul class="services-list">
                 <li><img src="img_Web/imgg.jpg" alt="" class="foto-services"> <p class="bg-title">ДЕСКТОПНІ ДОДАТКИ</p></li>
                 <li><img src="img_Web/img(1).jpg" alt="" class="foto-services"> <p class="bg-title">МОБІЛЬНІ ДОДАТКИ</p></li>
@@ -102,9 +103,9 @@
         </section>
         <section class="team-section">
            <div class="container">
-            <h1 class="team-title">Наша команда</h1>
+            <h1 class="team-title" data-aos="flip-up">Наша команда</h1>
             <ul class="team-list">
-                <li class="team-li">
+                <li class="team-li" data-aos="zoom-in-right">
                     <img src="img_Web/img_.jpg" alt="" class="foto-member">
                     <p class="team-member-name">Ігор Дем'яненко</p>
                     <p class="team-member-job">Product Designer</p>
@@ -123,7 +124,7 @@
                         </svg>
                     </div>
                 </li>
-                <li class="team-li">
+                <li class="team-li" data-aos="zoom-in-right">
                     <img src="img_Web/img_(1).jpg" alt="" class="foto-member">
                     <p class="team-member-name">Ольга Рєпіна</p>
                     <p class="team-member-job">Frontend Devloper</p>
@@ -142,7 +143,7 @@
                         </svg>
                     </div>
                 </li>
-                <li class="team-li">
+                <li class="team-li" data-aos="zoom-in-right">
                     <img src="img_Web/img_(2).jpg" alt="" class="foto-member">
                     <p class="team-member-name">Микола Тарасова</p>
                     <p class="team-member-job">Marketing</p>
@@ -161,7 +162,7 @@
                         </svg>
                     </div>
                 </li>
-                <li class="team-li">
+                <li class="team-li" data-aos="zoom-in-right">
                     <img src="img_Web/img_(3).jpg" alt="" class="foto-member">
                     <p class="team-member-name">Михайло Єрмаков</p>
                     <p class="team-member-job">UI Designer</p>
@@ -208,7 +209,7 @@
             </div>
             </div>
         </section>
-    <footer class="main-footer">
+    <footer class="main-footer" data-aos="fade-up">
         <div class="container">
             <div class="footer-info">
                 <img src="img_Web/WebStudio_footer.svg" alt="" class="footer-logo">
@@ -247,5 +248,9 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+</script>
 </body>
 </html>
